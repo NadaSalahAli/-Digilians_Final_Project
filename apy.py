@@ -184,8 +184,6 @@ elif option == "Password Checker":
             st.success("Analysis Complete")
             st.write(result)
 
-# ===============================
-# HOW TO RUN
-# ===============================
+
 
 
