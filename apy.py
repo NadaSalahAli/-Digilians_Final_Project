@@ -10,10 +10,8 @@ import google.generativeai as genai
 # CONFIGURE API KEY
 # ===============================
 
-# ضع مفتاح Gemini API هنا مباشرة
-genai.configure(api_key="AIzaSyCqpC02FpT4AZ5t7swls4IYBEJIZc8GLss")
+genai.configure(api_key="Gemini API")
 
-# استخدام أحدث موديل
 model = genai.GenerativeModel("gemini-3-flash-preview")
 
 # ===============================
